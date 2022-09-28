@@ -14,3 +14,22 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: blockitty
 This theme, like WordPress, is licensed under the GPL.
 */
+
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}

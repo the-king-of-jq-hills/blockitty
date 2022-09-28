@@ -46,3 +46,6 @@ if ( ! function_exists( 'blockitty_theme_setup' ) ) {
 
 // Enable customizer (mainly for Additional CSS feature).
 add_action( 'customize_register', '__return_true' );
+
+// Block patterns.
+require_once get_theme_file_path( 'inc/register-block-patterns.php' );
